@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type="text"]{
+            border: 2px solid chocolate
+             
+        }
+        input[type="password"]{
+        border:2px solid cornflowerblue  
+
+        }
+        ul>li{
+            color: darkmagenta ;
+        }
+        h1+p{
+            color: chartreuse;
+        }
+        h1+p+p{
+            color: cyan;
+        }
+        a:hover{
+            color: darkgreen;
+        }
+        li:nth-child(2){ background-color: chartreuse;
+            color: darkorange;
+        }
+        div:not(#a){
+            border: 10px solid yellow;
+        }
+        #c::before{
+            content: "om ";
+            color: crimson;
+        }
+        #d::after{ 
+            content: "lucky ";
+        }
+        #e::first-letter{
+            font-size: 150px;
+        }
+
+    </style>
+</head>
+<body style="background-color: aqua;">
+   <input type="text" placeholder="enter name"></input>
+   <input type="password" placeholder="password"></input>
+   <ul>
+    <li>LUCKY OM</li>
+    <li>grade12</li>
+   </ul>
+   <h1>title</h1>
+   <p>what is the work of cell phone </p>
+   <p>what is programing</p>
+   <ul>
+    <h1>➡️Names of Diseses</h1>
+    <li>Covid-19</li>
+    <li>Malaria</li>
+    <li>Dengue</li>
+   </ul>
+   <div id="a">Hello NITTIN KUMAR</div>
+   <div id="b">how are you</div>
+   <p id="c">lucky</p>
+   <p id="d">om</p>
+   <p id="e">covid-19</p>
